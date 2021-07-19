@@ -1,16 +1,18 @@
 # weather_radar
 
-A new Flutter project.
+`Weather radar Flutter project.`
 
-## Getting Started
+- [ ] Add [geolocator](https://pub.dev/packages/geolocator)
 
-This project is a starting point for a Flutter application.
+    $ flutter pub add geolocator
 
-A few resources to get you started if this is your first Flutter project:
+- [ ] Add permision to android and to ios:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Android
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+open android/app/src/main/AndroidManifest.xml
+add next line of code
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
